@@ -20,19 +20,13 @@
   "dependencies": {
     "jquery": "~2.1.4",
     "enquire": "~2.1.2",
-    "normalize.css": "~3.0.3"
+    "normalize.css": "~3.0.3",
+    "drawer": "~2.4.0"
   },
   "overrides": {
-    "jpanelmenu": {
+    "iscroll": {
       "main": [
-        "./jquery.jpanelmenu.js"
-      ]
-    },
-    "owl-carousel": {
-      "main": [
-        "./owl-carousel/owl.carousel.js",
-        "./owl-carousel/owl.carousel.css",
-        "./owl-carousel/owl.theme.css"
+        "./build/iscroll.js"
       ]
     }
   }
