@@ -21,7 +21,9 @@
     "jquery": "~2.1.4",
     "enquire": "~2.1.2",
     "normalize.css": "~3.0.3",
-    "drawer": "~2.4.0"
+    "drawer": "~2.4.0",
+    "jquery-sticky": "sticky#~1.0.1",
+    "jquery.scrollTo": "~2.1.2"
   },
   "overrides": {
     "iscroll": {

@@ -3,18 +3,317 @@
 
 
 
+.drawer-hamburger-icon
+  background-color #336B6B
+  &:before, &:after
+    background-color #336B6B
+
+
+
 // Init
 
+h1
+  display none
 
 #main
   width 100%
 
+  .section
+    lost-center 960px 10px
+    padding-top 100px
+    .section-inner
+      .logo
+        padding-top 77px
+        lost-column 3/5 0 0
+        img
+          width 100%
+          max-width 240px
+      .tagline
+        lost-column 4/5 0 0
+        text-transform uppercase
+        font-size 24px
+        color #01AA9E
+        font-family 'bebas_neuebook'
+    .menu-web
+      width 100%
+      display none
+
+
+  .section-title
+    font-size 36px
+    color #D6D92B
+    text-transform uppercase
+    font-family 'bebas_neuebook'
+
+  .section-text
+    margin-top 17px
+    font-size 16px
+    line-height 16px
+    color #01AA9E
+    p
+      font-family 'droid_sansregular'
+      line-height 20px
+
+  .section-list
+    ul
+      li
+        padding-top 18px
+        line-height 16px
+        color #01AA9E
+        span
+          font-family 'droid_serifitalic'
+
+
+  #header
+    padding-top 0
+
+
+  #in-italia
+    .section-graph
+      width 100%
+      overflow auto
+      margin-top 17px
+      .section-graph-inner
+        text-align center
+        img
+          max-width initial
+          text-align center
+
+
+  //#aree-formative
+
+  #parola-agli-studenti
+    .section-graph
+
+      .section-graph-caption
+        font-size 10.67px
+        color #9B9B9B
+        line-height 18px
+        font-family 'droid_serifitalic'
+      .section-graph-half
+        lost-column 5/5
+        margin-top 75px
+        .section-graph-image
+          text-align center
+      #first-g
+        position relative
+        top 45px
+      .section-graph-full
+        lost-column 5/5
+        margin-top 75px
+        .section-graph-image
+          width 100%
+          overflow auto
+          padding-top 50px
+          padding-bottom 20px
+
+          text-align center
+          img
+            max-width initial
+
+  #in-piemonte
+    .section-grid
+      padding-top 70px
+      .section-element
+        lost-column 5/5
+        padding-bottom 33px
+      .element-image
+        text-align center
+        img
+          vertical-align middle
+      .element-text
+        font-size 18px
+        color #9B9B9B
+        p
+          margin 0
+          margin-top 16px
+          font-family 'droid_sansregular'
+
+  #partners
+    lost-center 960px 0
+    background-color #F0F0F0
+    padding 60px 0
+    ul
+      width 100%
+      text-align center
+      list-style none
+      padding-left 0
+      li
+        width 100%
+        padding-top 15px
+        img
+          max-width 100px
+          vertical-align middle
+
+  #footer
+    padding-bottom 100px
+    .section-text
+      margin-top 33px
+    .section-text-footer
+      margin-top 40px
+      p
+        margin-bottom 18px
+        font-size 10.67px
+        line-height 18px
+        color #9B9B9B
+        font-family 'droid_sansregular'
+        .bold
+          font-weight bold
+          font-family 'droid_sansbold'
 
 
 
 
 
-//////////////// >480
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////// >500
+
++above(500px)
+
+  header
+    display none
+
+  #main
+    .section
+      .section-inner
+        lost-utility clearfix
+        .logo
+          padding-top 150px
+          lost-column 12/12 0 0
+          text-align center
+          img
+            width 100%
+            max-width 299px
+        .tagline
+          text-align center
+          font-size 36px
+          lost-column 12/12 0 0
+          padding 90px 0 70px
+
+
+      .menu-web
+        width 100%
+        display block
+        position absolute
+        bottom 0
+        .menu-web-inner
+          width 100%
+          height 34px
+          padding-top 20px
+          background-color #FFFFFF
+          border-top 1px solid #9B9B9B
+          border-bottom 1px solid #9B9B9B
+        ul
+          lost-center 960px 0
+          margin-bottom 0
+          margin-top 0
+          display:flex;
+          flex-wrap:wrap;
+          justify-content:flex-start;
+          text-align center
+          li
+            //display inline-block
+            display flex
+            flex 0 0 20%
+            text-align center
+            a
+              text-decoration none
+              color #9B9B9B
+              font-size 16px
+              display block
+              margin 0 auto
+              transition .4s all ease-in-out
+              &:hover
+                color #336B6B
+
+
+
+    .section-title
+      font-size 54px
+      color #D6D92B
+      text-transform uppercase
+      lost-column 11/12
+      lost-offset -1/12
+    .section-text
+      margin-top 17px
+      font-size 16px
+      line-height 16px
+      color #01AA9E
+      lost-column 7/12
+      lost-offset -3/12
+    .section-list
+      lost-column 6/12
+      lost-offset -3/12
+
+
+
+    #header
+      height 80vh
+      lost-center 3000px 0
+      position relative
+
+
+    #in-italia
+      .section-graph
+        width 100%
+        overflow auto
+        margin-top 17px
+        .section-graph-inner
+          text-align center
+          lost-column 9/12
+          lost-offset -3/12
+
+    #parola-agli-studenti
+      .section-graph
+        lost-column 9/12
+        lost-offset -2/12
+        .section-graph-half
+          lost-column 4/9
+
+        .section-graph-full
+          lost-column 9/9
+
+    #in-piemonte
+      .section-grid
+        lost-column 10/12
+        lost-offset -2/12
+        .section-element
+          lost-column 1/2
+          padding-bottom 33px
+
+
+
+    #partners
+      lost-center 3000px 0
+      box-shadow 0 2px 2px grey
+      ul
+        li
+          width initial
+          padding-top 0
+          display inline-block
+          padding 0 5px
+
+
+    #footer
+      .section-text
+        margin-top 33px
+        lost-column 6/12
+        lost-offset - 4/12
+      .section-text-footer
+        lost-column 6/12
+        lost-offset - 4/12
 
 
 
@@ -48,8 +347,9 @@
 
 +above(1100px)
 
-  header
-    display none
+  #main
+    .section
+      padding-top 150px
 
 
 

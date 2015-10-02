@@ -30,10 +30,18 @@ html.no-js(lang="en")
       .drawer-main.drawer-default
         nav.drawer-nav(role='navigation')
           .drawer-brand
-            a(href='./') drawer
+            a(href='./') ITS
           ul.drawer-menu
             li.drawer-menu-item
-              a(href='./base') base
+              a(href='#').cosa Cosa sono
+            li.drawer-menu-item
+              a(href='#').aree Aree formative
+            li.drawer-menu-item
+              a(href='#').inp In Piemonte
+            li.drawer-menu-item
+              a(href='#').offerta Offerta
+            li.drawer-menu-item
+              a(href='#').contatti Contatti
           .drawer-footer
             span
     .drawer-overlay
@@ -51,17 +59,18 @@ html.no-js(lang="en")
               p scuole ad alta specializzazione tecnologica
           
           .menu-web
-            ul
-              li
-                a(href="") Cosa sono
-              li
-                a(href="") Aree formative
-              li
-                a(href="") In Piemonte
-              li
-                a(href="") Offerta
-              li
-                a(href="") Contatti
+            .menu-web-inner
+              ul
+                li
+                  a.cosa(href="#") Cosa sono
+                li
+                  a.aree(href="#") Aree formative
+                li
+                  a.inp(href="#") In Piemonte
+                li
+                  a.offerta(href="#") Offerta
+                li
+                  a.contatti(href="#") Contatti
           
         section.section#cosa-sono
           .section-inner
@@ -69,9 +78,9 @@ html.no-js(lang="en")
               h2 COSA SONO GLI ITS
             .section-text
               p
-              | Gli Istituti Tecnici Superiori formano professionisti di alto livello nelle aree tecnologiche strategiche per lo sviluppo economico e la competitività, e rappresentano il segmento di formazione terziaria non universitaria in Italia.
+                | Gli Istituti Tecnici Superiori formano professionisti di alto livello nelle aree tecnologiche strategiche per lo sviluppo economico e la competitività, e rappresentano il segmento di formazione terziaria non universitaria in Italia.
               p
-              | Prendendo la forma di Fondazioni di partecipazione – che comprendono scuole, enti di formazione, imprese, università e centri di ricerca, enti locali – gli ITS mettono in comunicazione le aspirazioni individuali, le esigenze del territorio e il mondo produttivo, generando valore reale per tutti.
+                | Prendendo la forma di Fondazioni di partecipazione – che comprendono scuole, enti di formazione, imprese, università e centri di ricerca, enti locali – gli ITS mettono in comunicazione le aspirazioni individuali, le esigenze del territorio e il mondo produttivo, generando valore reale per tutti.
 
           
         section.section#in-italia
@@ -93,12 +102,12 @@ html.no-js(lang="en")
                 li Nuove tecnologie della vita
                 li Nuove tecnologie per il Made in Italy
                   span
-                    | (sistemi meccanica, 		moda, alimentare, casa, servizi alle imprese)
+                    |  (sistemi meccanica, 		moda, alimentare, casa, servizi alle imprese)
                 li Tecnologie innovative per i beni e le attività culturali
                 li Tecnologie dell' informazione e della 	comunicazione
                 
           
-        section.section#parola-agli-stidenti
+        section.section#parola-agli-studenti
           .section-inner
             .section-title
               h2 La parola agli studenti
@@ -106,7 +115,7 @@ html.no-js(lang="en")
               .section-graph-half
                 .section-graph-caption
                   p Esiti occupazionali
-                .section-graph-image
+                .section-graph-image#first-g
                   img(src="images/graph-1.png", alt="")
               
               .section-graph-half
@@ -136,58 +145,82 @@ html.no-js(lang="en")
                 .element-image
                   img(src="images/its-2.png", alt="")
                 .element-text
-                  p ITS agroalimentare
+                  p ITS aerospazio
               .section-element
                 .element-image
                   img(src="images/its-3.png", alt="")
                 .element-text
-                  p ITS agroalimentare
+                  p ITS ITC
                       
               .section-element
                 .element-image
                   img(src="images/its-c.png", alt="")
                 .element-text
-                  p ITS agroalimentare
+                  p ITS Turismo
             
           
         section.section#partners
           .section-inner
-            .section-title
-              h2 Contatti
-            .section-text
-              p
-              | Rilasciamo diplomi di Tecnico Superiore riconosciuti a livello nazionale ed europeo, che ti consentono di competere da subito sul mercato del lavoro più ampio. Per maggiori informazioni contatta l'800 985 384, scrivi a info[at]its-ictpiemonte[dot]it o visita la pagina bandi e prenota un colloquio.
-            .section-text-footer
-              p
-                span.bold Sede legale
-                br
-                span.light Torino, Piazza Carlo Felice, 18 
-              p
-                span.bold Sedi operative 
-                br
-                span.bold Torino
-                span.light , Piazza 2, via Jacopo Durandi 10, Telefono +39 011 0371500
-              p
-                span.bold P.IVA
-                span.light 10600860018
-                br
-                span.bold C.F.
-                span.light 97734430016
-                br
-                span.bold Numero REA
-                span.light TO – 1147027 
-                br
-                span.bold Registro PG Pref. di Torino nr.
-                span.light 731 
-                br
-                span.bold PEC
-                span.light its-ictpiemonte@pec.it
+            ul
+              li
+                img(src="images/partner1.png", alt="partners")
+              li
+                img(src="images/partner2.png", alt="partners")
+              li
+                img(src="images/partner3.png", alt="partners")
+              li
+                img(src="images/partner4.png", alt="partners")
+              li
+                img(src="images/partner5.png", alt="partners")
+              li
+                img(src="images/partner6.png", alt="partners")
+              li
+                img(src="images/partner7.png", alt="partners")
+              li
+                img(src="images/partner8.png", alt="partners")
+              li
+                img(src="images/partner9.png", alt="partners")
+              li
+                img(src="images/partner10.png", alt="partners")
+          
 
           
   
   
         footer
           section.section#footer
+            .section-inner
+              .section-title
+                h2 Contatti
+              .section-text
+                p
+                  | Rilasciamo diplomi di Tecnico Superiore riconosciuti a livello nazionale ed europeo, che ti consentono di competere da subito sul mercato del lavoro più ampio. Per maggiori informazioni contatta l'800 985 384, scrivi a info[at]its-ictpiemonte[dot]it o visita la pagina bandi e prenota un colloquio.
+              .section-text-footer
+                p
+                  span.bold Sede legale
+                  br
+                  span.bold Torino
+                  span.light , Piazza Carlo Felice, 18 
+                p
+                  span.bold Sedi operative 
+                  br
+                  span.bold  Torino
+                  span.light , Piazza 2, via Jacopo Durandi 10, Telefono +39 011 0371500
+                p
+                  span.bold P.IVA
+                  span.light 10600860018
+                  br
+                  span.bold C.F.
+                  span.light  97734430016
+                  br
+                  span.bold Numero REA
+                  span.light  TO – 1147027 
+                  br
+                  span.bold Registro PG Pref. di Torino nr.
+                  span.light  731 
+                  br
+                  span.bold PEC
+                  span.light  its-ictpiemonte@pec.it
           
         
       
