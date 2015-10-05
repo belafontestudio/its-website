@@ -3,11 +3,23 @@
 
 #bubbles
   position absolute
-  height 80vh
-  overflow hidden
+  height 50vh
+  background url('../images/bgmobile.jpg') center center
+  background-size cover
   top 0
   left 0
   right 0
+  opacity .7
+
+
++above(768px)
+  #bubbles
+    position absolute
+    height 80vh
+    overflow hidden
+    opacity 1
+    background-image none
+    text-align center
 
 
 
@@ -31,6 +43,7 @@ h1
     padding-top 100px
     .section-inner
       position relative
+      //lost-utility clearfix
       .logo
         padding-top 77px
         lost-column 3/5 0 0
