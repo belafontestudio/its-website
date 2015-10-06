@@ -143,6 +143,7 @@ h1
         padding-bottom 33px
       .element-image
         text-align center
+        overflow hidden
         img
           vertical-align middle
       .element-text
@@ -152,6 +153,16 @@ h1
           margin 0
           margin-top 16px
           font-family 'droid_sansregular'
+
+    a
+      display block
+      text-decoration none
+      *
+        transition .2s all ease-in-out
+      &:hover
+        opacity .8
+        img
+          transform scale(1.05)
 
   #partners
     lost-center 960px 0
