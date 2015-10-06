@@ -20,7 +20,7 @@ $(document).ready(function() {
   });
   $('.offerta').click(function(e){
     e.preventDefault();
-    $(window).scrollTo($('#cosa-sono'), 800);
+    $(window).scrollTo($('#in-italia'), 800);
   });
   $('.contatti').click(function(e){
     e.preventDefault();
