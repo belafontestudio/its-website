@@ -48,8 +48,10 @@ h1
 
 #main
   width 100%
+  background-color #F0F0F0
 
   .section
+    background-color white
     lost-center 960px 10px
     padding-top 100px
     .section-inner
@@ -147,6 +149,7 @@ h1
             max-width initial
 
   #in-piemonte
+    padding-top 10px
     .section-grid
       padding-top 70px
       a
@@ -188,6 +191,7 @@ h1
     lost-center 960px 0
     background-color #F0F0F0
     padding 60px 0
+
     ul
       width 100%
       text-align center
@@ -331,6 +335,7 @@ h1
           lost-offset -3/12
 
     #parola-agli-studenti
+      padding-bottom 50px
       .section-graph
         lost-column 9/12
         lost-offset -2/12
@@ -341,18 +346,25 @@ h1
           lost-column 9/9
 
     #in-piemonte
+      padding-top 0
       .section-grid
         lost-column 10/12
-        lost-offset -2/12
+        lost-offset -1/12
         .section-element
           lost-column 1/2
           padding-bottom 33px
 
-
+    #cosa-sono
+      padding-top 30px
+      .section-inner
+        .section-text
+          lost-column 8/12
+          lost-offset -2/12
 
     #partners
       lost-center 3000px 0
-      border-bottom 1px solid #01AA9E
+      //border-bottom 1px solid #01AA9E
+
       ul
         li
           width initial
@@ -411,4 +423,15 @@ h1
 
 
 
-/////////////// > 1300
+/////////////// > 1440
+
++above(1440px)
+
+  #main
+    #in-piemonte
+      .section-grid
+        lost-column 10/12
+        lost-offset -1/12
+        .section-element
+          lost-column 1/4
+          padding-bottom 33px
